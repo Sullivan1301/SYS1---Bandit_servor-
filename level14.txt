@@ -1,0 +1,7 @@
+ssh bandit13@bandit.labs.overthewire.org -p 2220
+ls
+ssh -i sshkey.private bandit14@localhost
+yes
+We have logged in as bandit14 we can confirm this by looking at your prompt
+bandit14@bandit:~$
+cat /etc/bandit_pass/bandit14
