@@ -1,0 +1,38 @@
+ssh bandit12@bandit.labs.overthewire.org -p 2220
+ls
+mkdir /tmp/level13
+cd /tmp/level13
+cp ~/data.txt
+ls
+mv data.txt data1
+ls
+cat data1 | head
+xxd -r data1 compressed_data1
+ls
+cat compressed_data1 | head
+cat data1
+mv compressed_data1 compressed_data1.gz
+ls
+gzip -d compressed_data1.gz 
+ls
+xxd compressed_data1
+mv compressed_data1 compressed_data2.bz2
+ls
+bzip2 -d compressed_data2.bz2
+mv compressed_data2 compressed_data2.gz
+gzip -d compressed_data2.gz
+cat compressed_data2
+mv compressed_data2 compressed_data3.tar 
+tar -xf compressed_data3.tar 
+ls
+tar -xf data5.bin
+xxd data6.bin
+bzip2 -d data6.bin
+ls
+tar -xf data6.bin.out
+ls
+xxd data8.bin
+mv data8.bin data8.gz
+gzip -d data8.gz
+ls
+cat data8
