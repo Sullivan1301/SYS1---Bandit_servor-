@@ -1,0 +1,5 @@
+ssh bandit2@bandit.labs.overthewire.org -p 2220
+ls
+cat spaces\ in\ this\ filename 
+you have the password for bandit3
+Go to next level
