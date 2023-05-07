@@ -1,1 +1,5 @@
-
+ssh bandit0@bandit.labs.overthewire.org -p 2220
+ls
+cat readme
+you have the password for bandit1
+Go to next level
