@@ -1,0 +1,5 @@
+ssh bandit7@bandit.labs.overthewire.org -p 2220
+ls
+grep millionth data.txt
+you have the password for bandit8
+Go to next level
