@@ -1,0 +1,4 @@
+bandit14@bandit.labs.overthewire.org -p 2220
+cat /etc/bandit_pass/bandit14
+netcat localhost 30000
+the correct password is the second
