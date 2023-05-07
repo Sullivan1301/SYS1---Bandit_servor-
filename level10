@@ -1,0 +1,4 @@
+ssh bandit9@bandit.labs.overthewire.org -p 2220
+ls
+file data.txt
+strings data.txt | grep -E "=+"
