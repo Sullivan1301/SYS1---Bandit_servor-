@@ -1,0 +1,17 @@
+ssh bandit17@bandit.labs.overthewire.org -p 2220
+nmap -sV -T4 -p 31000-32000 localhost
+cat /etc/bandit_pass/bandit16
+openssl s_client --connect localhost:31790
+mkdir /tmp/random_sshkey
+cd /tmp/random_sshkey
+touch private.key
+vim private.key
+Once vim opens Press “i” to enter insert mode
+Then use Ctrl + Shift + V to paste the copied key
+Press “Esc” key to return to normal mode
+Then type :wq to save and exit the file
+chmod 400 private.key
+ls -l
+ssh -i private.key 
+yes
+cat /etc/bandit_pass/bandit17
