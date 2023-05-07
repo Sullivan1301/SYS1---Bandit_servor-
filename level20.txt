@@ -1,0 +1,7 @@
+ssh bandit19@bandit.labs.overthewire.org -p 2220
+ls -al ./bandit20-do
+./bandit20-do id
+ls /etc/bandit_pass/bandit*
+ls /etc/bandit_pass/bandit20
+cat /etc/bandit_pass/bandit20
+./bandit20-do cat /etc/bandit_pass/bandit20
