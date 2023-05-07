@@ -1,0 +1,5 @@
+ssh bandit11@bandit.labs.overthewire.org -p 2220
+ls
+cat data.txt
+alias rot13='tr a-zA-Z n-za-mN-ZA-M'
+cat data.txt | rot13
