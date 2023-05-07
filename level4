@@ -1,0 +1,7 @@
+ssh bandit3@bandit.labs.overthewire.org -p 2220
+ls -al
+cd inhere
+ls -al
+cat .hidden
+you have the password for bandit4
+Go to next level
