@@ -1,0 +1,8 @@
+ssh bandit5@bandit.labs.overthewire.org -p 2220
+ls 
+cd inhere
+ls
+find ./ -type f -size 1033c ! -executable
+cat ./maybehere07/.file2
+you have the password for bandit6
+Go to next level
