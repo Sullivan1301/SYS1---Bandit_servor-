@@ -1,0 +1,5 @@
+ssh bandit22@bandit.labs.overthewire.org -p 2220
+cat /etc/cron.d/cronjob_bandit23
+myname=bandit23
+echo I am user $myname | md5sum | cut -d ' ' -f 1
+cat /tmp/8ca319486bfbbc3663ea0fbe81326349
